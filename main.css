@@ -1,0 +1,66 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, Sans-serif;
+}
+
+/*Open topnav CSS*/
+.topnav {
+  width:100%;
+  top:0;
+  position: fixed;
+  overflow: hidden;
+  background-color: #242424;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: #FF0087;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/*Close topnav CSS*/
+
+/*Open mainPicture CSS*/
+.mainPicture {
+	width: 100%;
+	height: 100vh;
+	background-color: silver;
+	background-image: url("images/background.jpeg"); /* change your image source */
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.lblHello{
+	text-align:center;
+	padding-top: 15%;
+	font-size: 100px;
+	font-family: impact;
+	color: #DFFF00;
+}
+/*Close mainPicture CSS*/
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #FF0087;
+   color: white;
+   text-align: center;
+}	
